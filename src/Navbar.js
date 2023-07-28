@@ -3,11 +3,13 @@ export default function Navbar(){
   return (
     <>
    <nav className="navbar navbar-expand-lg bg-body-tertiary  ">
-   <div className="container-fluid justify-content-center">
-  < a className="navbar-brand" href="#">Navbar</a>
+   <h4 className="navbar-brand  fs-3  mx-5">Yummy</h4>
+   <div className="container-fluid justify-content-center ">
+  {/* < a className="navbar-brand  fs-3 " href="#">Yummy</a> */}
+ 
    <ul className="nav ">
     <li className="nav-item">
- <a className="nav-link active text-secondary" aria-current="page" href="#"> Home</a>
+ <a className="nav-link active text-secondary " aria-current="page" href="#"> Home</a>
     </li>
     <li className="nav-item">
  <a className="nav-link active text-secondary" aria-current="page" href="#"> About</a>
@@ -39,8 +41,12 @@ export default function Navbar(){
  <a className="nav-link active text-secondary" aria-current="page" href="#"> Contact</a>
     </li>
    </ul>
+   <button type="button" className="btn btn-danger rounded-pill  mx-5">Book a Table</button>
+    
    </div>
+
    </nav>
+
     </>
   )
 }
