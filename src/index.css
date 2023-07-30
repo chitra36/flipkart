@@ -1,1 +1,13 @@
-@import "bootstrap/dist/css/bootstrap.css"
+@import url('https://fonts.googleapis.com/css2?family=Lumanosimo&display=swap');
+
+@import "bootstrap/dist/css/bootstrap.css";
+
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Lumanosimo', cursive;
+}
+
+
+.mybtn{
+    box-shadow: 10px 0 0 red;
+}

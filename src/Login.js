@@ -2,25 +2,44 @@ import "./assets/app.css"
 export default function login(){
     return(
         
-        <div className=" d-flex justify-content-center my-4 mx-2 shadow-sm ">
+        <div className="d-flex justify-content-center my-4  shadow-sm bg-light">
            
-            <img src="https://workplacelearning.ial.edu.sg/images/default-source/default-album/wab-lab-image-card---cropped-v2.png?sfvrsn=c0157bd3_0" className="vh-4 w-auto mx-4"width={200} height={340}/>
+            <img src="https://workplacelearning.ial.edu.sg/images/default-source/default-album/wab-lab-image-card---cropped-v2.png?sfvrsn=c0157bd3_0" className="mx-4 my-4" width="200px"   style={{ borderRadius: '9px'}}/>
        
             
-             <form className=" my-2">
-             <h3 className="text-center ">Book Your Table</h3>
-            <input type="text" placeholder="Your Name" className="mx-4   "></input>
-            <input type="text" placeholder="Your E-mail" className="mx-4  "></input>
-            <input type="text" placeholder=" Subject" className="mx-4  "></input>
-            <div className="form-floating py-4">
-            <input type="Date" placeholder="Your Name" className="mx-5   "></input>
-            <input type="Time" placeholder="Your E-mail" className="mx-5  "></input>
-            <input type="Text" placeholder=" # of People" className="mx-5  "></input>
-            <div className="form-floating py-4"> </div>
-  <textarea className="form-control "  id="floatingTextarea2 " ></textarea>
-  <label for="floatingTextarea2 text-secondery  mx-5" ></label>
-</div>
-<button type="button" className="btn btn-danger rounded-pill  shadow-sm  mx-5 ">Send Message</button>
+             <form className="my-3">
+             <h3 className="text-center">Book Your Table</h3>
+            <div className="row my-3">
+            <div className="col-md-4">
+            <input type="text" placeholder="Your Name" className="form-control"/>
+            </div>
+           <div className="col-md-4">
+           <input type="text" placeholder="Your E-mail" className="form-control"/>
+           </div>
+            <div className="col-md-4">
+            <input type="text" placeholder=" Subject" className="form-control"/>
+            </div>
+            </div>
+            <div className="row my-3">
+                <div className="col-md-4">
+                <input type="Date" placeholder="Your Name" className="form-control"/>
+                </div>
+            
+           <div className="col-md-4">
+           <input type="Time" placeholder="Your E-mail" className="form-control"></input>
+           </div>
+           <div className="col-md-4">
+           <input type="Text" placeholder=" # of People" className="form-control"></input>
+           </div>
+           
+       
+        </div>
+        <div className="row mb-3">
+            <textarea className="form-control"  id="floatingTextarea2 " ></textarea>
+            </div>
+       <div className="text-center">
+       <button type="button" className="btn btn-danger rounded-pill mybtn shadow-sm  mx-auto" >Send Message</button>
+       </div>
         </form>
        
         </div>

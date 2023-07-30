@@ -3,7 +3,7 @@ import "./assets/app.css"
 export default function Feeds(){
     return(
 <>
-<div className="Container h-auto w-auto my-5 mx-5 shadow-sm ">
+<div className="Container h-auto w-auto my-5  shadow-sm ">
     {/* <h1 className="mx-5 align-items-center justify-content-center">Forest</h1> */}
   <div className="h-25 w-auto  d-flex my-5">
     <img src="https://th.bing.com/th/id/R.9fa928d3a5e5e3df6ec769fbb96a318d?rik=0mB5EIRDTFKJdQ&pid=ImgRaw&r=0" className="h-25 w-25 mx-4"/>
